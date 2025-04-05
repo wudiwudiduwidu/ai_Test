@@ -55,12 +55,11 @@ ai:
  ```
 ![Description](https://xzai-platform.oss-cn-guangzhou.aliyuncs.com/blog37c501.png){{{width="auto" height="auto"}}}
 7. 图片上传使用的是阿里云对象储存oss，需要去阿里云官网获得以下信息(自行查阅资料) 位于com.xz.aiTest.utils.OSSUtils中
-``` java
- String accessId = "; // 请填写您的AccessKeyId。
-String accessKey = ""; // 请填写您的AccessKeySecret。
-String endpoint = ""; // 请填写您的 endpoint。
-String bucket = ""; // 请填写您的 bucketname 。
-```
+
+![Description](https://xzai-platform.oss-cn-guangzhou.aliyuncs.com/blogcca8e6.png)
+
+
+
 **如果你了解过docker，redis也可以用docker部署到服务器上**
 
 ## 项目亮点分析
