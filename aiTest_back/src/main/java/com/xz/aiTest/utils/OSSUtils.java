@@ -40,10 +40,10 @@ public class OSSUtils {
     public static String doGet(byte[] bytes, String objectName)
     {
 //解除注释
-      //  String accessId = ""; // 请填写您的AccessKeyId。
-      //  String accessKey = ""; // 请填写您的AccessKeySecret。
-     //   String endpoint = ""; // 请填写您的 endpoint。
-      //  String bucket = ""; // 请填写您的 bucketname 。
+      //  String accessId = ""; 
+      //  String accessKey = ""; 
+     //   String endpoint = ""; 
+      //  String bucket = ""; 
 
         // 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessId, accessKey);
