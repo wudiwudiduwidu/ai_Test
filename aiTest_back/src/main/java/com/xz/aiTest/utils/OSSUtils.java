@@ -39,11 +39,11 @@ public class OSSUtils {
     }
     public static String doGet(byte[] bytes, String objectName)
     {
-
-        String accessId = "LTAI5t8TLzmXid1BNwNtedEs"; // 请填写您的AccessKeyId。
-        String accessKey = "Us0mBo7gVYEdUlzuMNRhXJO0Oa7M58"; // 请填写您的AccessKeySecret。
-        String endpoint = "oss-cn-guangzhou.aliyuncs.com"; // 请填写您的 endpoint。
-        String bucket = "xzai-platform"; // 请填写您的 bucketname 。
+//解除注释
+      //  String accessId = ""; // 请填写您的AccessKeyId。
+      //  String accessKey = ""; // 请填写您的AccessKeySecret。
+     //   String endpoint = ""; // 请填写您的 endpoint。
+      //  String bucket = ""; // 请填写您的 bucketname 。
 
         // 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessId, accessKey);
