@@ -40,13 +40,11 @@ public class OSSUtils {
     public static String doGet(byte[] bytes, String objectName)
     {
 // 解除注释并反转变量名(因为下面变量是无法上传github 先反转变量名！)
-String di = "";
-String yek = "";
-String endpoint = "";
-String bucket = "";
+//String endpoint = "";
+//String bucket = "";
 
         // 创建OSSClient实例。
-        OSS ossClient = new OSSClientBuilder().build(endpoint, di, yek);
+        OSS ossClient = new OSSClientBuilder().build(endpoint, id, key);
 
         try {
             // 创建PutObject请求。
